@@ -1,0 +1,14 @@
+Navigate to http://zero.webappsecurity.com/login.html
+	Username is = username
+	Password is = password
+
+	Click on Pay bills, click on Add new Payee
+		Test New Payee functionality.
+			Note create positive and negative scenarios.
+
+	Click on the Pay bills.
+	Test purchase Foreign Currency function.
+		Note Test with US dollar and selected currency both radio button check the success 				message.
+
+Note: Use a scenario outline while working with a functionality.
+Create a runner for all feature files
