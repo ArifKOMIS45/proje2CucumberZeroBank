@@ -4,7 +4,7 @@ Background:
   And Enter e valid username "username" and password "password"
   Then Login successfully
 
-
+  @SmokeTest
   Scenario:  Add ne payee succesfully
 
     Given navigate to Pay Bills
@@ -20,7 +20,7 @@ Background:
 
 
 
-    
+  @SmokeTest
   Scenario Outline:
     Given Navigate to Purchase Foreign CUrrency
 
